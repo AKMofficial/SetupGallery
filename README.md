@@ -13,7 +13,7 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 # How to Open
 ### Online
 [Click Here](https://akmofficial.github.io/SetupGallery/)
-
+<br>
 ### Locally
 download, and open index.html with your browser
 
