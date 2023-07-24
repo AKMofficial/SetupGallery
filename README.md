@@ -11,7 +11,7 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 - Ability to zoom pictures and navigate between
 
 <br>
----
+****
 <br>
 
 # How to Open
