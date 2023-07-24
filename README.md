@@ -1,4 +1,4 @@
-# SetupGallery
+# Setup Gallery
 The key to learning is practice, and with my learning journey with Front-End Development, I started with a photo gallery project using HTML, CSS, and JS. <br>
 Setup Gallery is a website that shows you pictures of setups to give you ideas for yours.
 
@@ -18,7 +18,7 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 <br>
 <br>
 - ### Locally
-download, and open index.html with your browser
+Download, and open index.html with your browser.
 
 <br>
 <br>
