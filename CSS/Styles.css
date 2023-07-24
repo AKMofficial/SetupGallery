@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;800&display=swap');
+/* 400 500 800 */
+
+:root{
+    --Body-Color: #393E46;
+    --Nav-Color: #222831;
+    --Text-Color: #ffffff;
+    --Hover-Color: #a0bfe044; /* Selection color also */
+    --Button-Color: #4682A9
+}
+
+
+*{
+    text-decoration: none;
+    color: var(--Text-Color);
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Body-Color);
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: var(--Hover-Color);
+}
+
+/* Header */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Nav-Color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.logo{
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 0.7rem 0.7rem 0.7rem 1.5rem;
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: var(--Hover-Color); 
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 2px;
+    width: 100%;
+    background-color: var(--Text-Color);
+    border-radius: 10px;
+}
+
+
+
+/* Responsive */
+
+/* Surface Pro 7 */
+@media (max-width:920px) {
+    .Intro{
+        margin: 550px auto!important;
+    }
+}
+/* iPad Air */
+@media (max-width:821px) {
+    .Intro{
+        margin: 450px auto!important;
+    }
+}
+
+@media (max-width:700px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+@media (max-width:600px) {
+    .Intro{
+        width: 370px!important;
+        margin: 280px auto!important;
+    }
+    
+    .Intro img {
+        margin: 10px auto;
+        display: block;
+    }
+    
+    .Intro h1 {
+        float: none!important;
+    }
+
+    .Background{
+        width: 300px!important;
+        }
+    
+        .h1Title {
+        font-size: 1.4rem!important;
+        }
+    
+        .Background img{
+        height: 130px!important;
+    
+    
+        top: 105px!important;
+        left: -30px!important;
+        }
+}
+
+@media (max-width: 500px) {
+    .gallery{
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 370px!important;
+        height: 270px!important;
+    }
+
+    .Contact{
+        width: 250px!important;
+    }
+
+    .Contact button{
+        font-size: 1.4rem!important;
+    }
+
+    .Contact h1{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:400px) {
+    .Intro{
+        width: 350px!important;
+    }
+
+    .Intro h1 {
+        font-size: 1.6rem;
+    }
+
+
+    .Background{
+        margin: 0px!important;
+    }
+    .Background img{
+        left: 20px!important;
+        width: 350px!important;
+    }
+
+    .h1Title {
+        font-size: 1.3rem!important;
+        position: relative;
+        left: 40px;
+    }
+
+
+
+    .gallery img{
+        width: 350px!important;
+    }
+}
+
+/* iPhone SE, Samsung Galaxy S8+ */
+@media (max-width:376px) {
+    .Intro{
+        margin: 170px auto!important;
+    }
+
+    .Background img{
+        left: 12px!important;
+    }
+
+    .Background img{
+        left: 7px!important;
+    }
+}
+
+/* Galaxy Fold */
+@media (max-width:290px) {
+    .Intro{
+        width: 250px!important;
+        margin: 220px auto!important;
+    }
+    
+    .Intro h1 {
+        font-size: 1.4rem;
+    }
+
+
+
+    .Background{
+        width: 250px!important;
+        height: 190px!important;
+    }
+    
+
+    .h1Title {
+        font-size: 1.3rem!important;
+        left: 10px;
+    }
+    
+
+    .Background img{
+        height: 100px!important;
+        width: 260px!important;
+    
+    
+        top: 100px!important;
+        left: 10px!important;
+    }
+
+
+    .gallery img{
+         width: 270px!important;
+    }
+}
+
+
+
+
+/* Intro */
+.Intro{
+    margin: 360px auto;
+    width: 525px;
+}
+
+.Intro img {
+    width: 150px;
+}
+
+.Intro h1 {
+    float: right;
+    text-align: center;
+}
+
+
+/* Section 1 Title */
+.Background{
+    width: 520px;
+    margin: 0 auto;
+}
+
+.h1Title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+
+    padding-bottom: 80px;
+}
+
+.Background img{
+    mix-blend-mode: color-burn;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left: -20px;
+    z-index: -1;
+}
+
+
+
+
+/* Gallery */
+.gallery{
+    margin: 10px auto;
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 500px;
+    height: 332px;
+
+    border-radius: 7%;
+}
+
+.gallery img:hover{
+    transform: scale(1.04);
+}
+
+
+/* Contact Section */
+.Contact{
+    width: 400px;
+    text-align: center;
+    margin: 450px auto;
+    font-size: 1.2rem;
+
+}
+
+.Contact button{
+    border: 2px solid black;
+    font-size: 2rem;
+    border-radius: 5%;
+    background: none;
+    padding: 0;
+
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.Contact button:hover{
+    box-shadow: 0 3px 5px -2px var(--Button-Color);
+    transform: translateY(-0.1em);
+}
+
+.Contact a{
+    display: block;
+    padding: 6px 10px;
+}
+
+
+/* Footer */
+footer div {
+    width: 100%;
+    background-color: var(--Nav-Color);
+    text-align: center;
+    height: 90px;
+    padding: 10px;
+
+
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+footer p{
+    margin: 10px;
+}
