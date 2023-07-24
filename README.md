@@ -3,7 +3,6 @@ The key to learning is practice, and with my learning journey with Front-End Dev
 Setup Gallery is a website that shows you pictures of setups to give you ideas for yours.
 
 <br>
----
 <br>
 
 # Features
@@ -11,7 +10,6 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 - Ability to zoom pictures and navigate between
 
 <br>
-****
 <br>
 
 # How to Open
@@ -22,13 +20,11 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 download, and open index.html with your browser
 
 <br>
----
 <br>
 
 # Preview Images
 
 <br>
----
 <br>
 
 # Tools
