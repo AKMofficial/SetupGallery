@@ -6,7 +6,7 @@ Setup Gallery is a website that shows you pictures of setups to give you ideas f
 <br>
 
 # Features
-- Responsible website
+- Responsive website
 - Ability to zoom pictures and navigate between
 
 <br>
